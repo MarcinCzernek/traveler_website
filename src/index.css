@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+background: radial-gradient(seagreen, #003b00);
+}
+h2, h1, h3, p, a, button{
+  color: white;
+  font-weight: bold;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 code {

@@ -1,0 +1,44 @@
+.Top{
+
+  align-items: center;
+  background: linear-gradient(90deg, rgb(255, 255, 166) 0%, rgb(193, 134, 53) 100%);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-bottom: 20px;
+
+  button{
+    background-color: darkblue;
+    border: goldenrod 2px groove;
+  }
+
+  ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+  }
+  .header{
+    display: flex;
+    text-align: left;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  ul{
+  list-style: none;
+  }
+  .list:before{
+    content: '';
+  }
+  hr {
+  /*width: 20%;*/
+  }
+
+  img{
+    width: 70px;
+    height: 70px;
+  }
+
+}
