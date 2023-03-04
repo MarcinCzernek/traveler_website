@@ -12,6 +12,7 @@ return(
             <h3>You can unsubscribe at any time</h3>
             <input type="email" name='mail' placeholder="Your email" /><button>Subscribe now</button>
         </div>
+        <hr/>
         <div className="under_footer">
             <div className="col_logo">
                 <img src={logo} alt=""/>
@@ -47,6 +48,7 @@ return(
                 <a href="#">Lorem ipsum</a>
             </div>
         </div>
+        <hr/>
         <div className="footer">
             <img src={fb} alt=""/>
             <img src={inst} alt=""/>

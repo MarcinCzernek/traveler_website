@@ -26,15 +26,15 @@
 .Top ul {
   list-style: none;
 }
-.Top .list:before {
-  content: "";
-}
 .Top hr {
   /*width: 20%;*/
 }
 .Top img {
   width: 70px;
   height: 70px;
+}
+.Top a {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=Top.css.map */

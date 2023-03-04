@@ -15,9 +15,9 @@ const Top = () =>{
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href=""></a>Services</li>
-                    <li><a href=""></a>Features</li>
-                    <li><a href=""></a>Contact</li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contact</a></li>
                     <li><button><FaGithub></FaGithub><a href="#">Code on Github</a></button></li>
                 </ul>
 

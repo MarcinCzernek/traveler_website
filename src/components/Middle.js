@@ -18,7 +18,6 @@ function Middle() {
                 <h2>What is Your next tour?</h2>
 
             <div className="features">
-                <h2>What is Your next tour?</h2>
                 <div className="container">
                     <img src={img1} alt=""/>
                     <p className="signature">Lorem ipsum dolor sit amet.</p>

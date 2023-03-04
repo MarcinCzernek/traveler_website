@@ -10,10 +10,23 @@ background: radial-gradient(seagreen, #003b00);
 h2, h1, h3, p, a, button{
   color: white;
   font-weight: bold;
+  shape-rendering: crispEdges;
+  text-shadow: 2px 2px #48535e;
+}
+hr{
+  color: rgba(34,34,34,20%);
 }
 a{
   color: #ffffff;
   text-decoration: none;
+}
+a:hover{
+  animation: header_animation 5s infinite;
+
+}
+@keyframes header_animation {
+  from {text-decoration: solid underline orange 4px;}
+  to {text-decoration: solid underline orangered 4px;}
 }
 
 code {

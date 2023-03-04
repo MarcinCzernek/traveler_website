@@ -29,9 +29,6 @@
   ul{
   list-style: none;
   }
-  .list:before{
-    content: '';
-  }
   hr {
   /*width: 20%;*/
   }
@@ -39,6 +36,9 @@
   img{
     width: 70px;
     height: 70px;
+  }
+  a{
+    font-size: 30px;
   }
 
 }
