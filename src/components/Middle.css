@@ -3,27 +3,32 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .Middle .welcome {
   text-align: center;
   padding: 200px;
 }
+
 .Middle .welcome h1 {
   font-size: 5em;
 }
+
 .Middle .welcome button {
   margin-top: 40px;
   font-size: 3em;
   background-color: #4eaeff;
   border: rgba(255, 255, 255, 0.85) groove 2px;
   /* background-color: #fff;
-   animation: show .8s linear;
-   pointer-events: none;
-   transform: translate(-50%, -50%);
-   border-radius: 50%;*/
+      animation: show .8s linear;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;*/
 }
+
 .Middle .welcome button:hover {
-  animation: show 0.8s linear;
+  animation: show .8s linear;
 }
+
 @keyframes button_animation {
   from {
     box-shadow: blanchedalmond;
@@ -32,6 +37,7 @@
     background-color: #4779a5;
   }
 }
+
 @keyframes show {
   0% {
     width: 0px;
@@ -44,30 +50,36 @@
     opacity: 0;
   }
 }
+
 .Middle .features_section {
   background-color: rgba(18, 101, 32, 0.4);
   padding-top: 50px;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .Middle .features_section h2 {
   font-size: 30px;
 }
+
 .Middle .features {
   display: grid;
   justify-content: center;
   grid-template-columns: auto auto;
   grid-gap: 50px;
 }
+
 .Middle .features img {
   width: 300px;
   height: 300px;
   border-radius: 20px;
   box-shadow: 5px 10px #51d8ff;
 }
+
 .Middle .features img:hover {
   transform: scale(1.1);
 }
+
 .Middle .features .signature {
   background-color: rgba(139, 104, 17, 0.9);
   padding: 10px;
@@ -76,4 +88,17 @@
   color: white;
 }
 
-/*# sourceMappingURL=Middle.css.map */
+@media screen and (max-width: 700px) {
+  .Middle .features {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+  }
+  .Middle .welcome h1 {
+    font-size: 2em;
+  }
+  .Middle .welcome h2 {
+    font-size: 1em;
+  }
+}

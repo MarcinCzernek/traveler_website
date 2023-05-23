@@ -41,4 +41,19 @@
     font-size: 30px;
   }
 
+  @media screen and (max-width: 700px) {
+  button{
+    a{
+      font-size: 1px;
+    }
+  }
+  .header{
+  display: grid;
+  grid-template-columns: 100px 10px;
+  gap:0px;
+  }
+  ul{
+    font-size: 1px;
+  }
+}
 }

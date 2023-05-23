@@ -54,11 +54,12 @@ background-size: cover;
     }
   }
   .features{
-
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto;
     grid-gap: 50px;
+
+
 
     img{
       width: 300px;
@@ -78,5 +79,21 @@ background-size: cover;
     }
   }
 
+  @media screen and (max-width: 700px) {
 
+    .features{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: auto;
+      grid-gap: 50px;  
+        }
+        .welcome{
+       h1{
+        font-size: 2em;
+       }
+       h2{
+        font-size:1em;
+       }
+  }
+}
 }

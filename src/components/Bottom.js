@@ -40,20 +40,13 @@ return(
                 <a href="#">Lorem ipsum</a>
                 <a href="#">Lorem ipsum</a>
             </div>
-            <div className="col">
-                <h2>Others</h2>
-                <a href="#">Lorem ipsum</a>
-                <a href="#">Lorem ipsum</a>
-                <a href="#">Lorem ipsum</a>
-                <a href="#">Lorem ipsum</a>
-            </div>
         </div>
         <hr/>
         <div className="footer">
             <img src={fb} alt=""/>
             <img src={inst} alt=""/>
             <p><i className="fa-brands fa-envira"></i></p>
-            <p>Created in React JS by MC</p>
+            <p>Created in React by MC</p>
         </div>
         <script src="https://kit.fontawesome.com/5d4270a0be.js" crossOrigin="anonymous"></script>
     </div>
