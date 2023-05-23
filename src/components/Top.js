@@ -18,7 +18,7 @@ const Top = () =>{
                     <li><a href="">Services</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><button><FaGithub></FaGithub><a href="#">Code on Github</a></button></li>
+                    <li id='git'><button><FaGithub></FaGithub><a href="https://github.com/MarcinCzernek/traveler_website">Code on Github</a></button></li>
                 </ul>
 
                 <div className="burger">

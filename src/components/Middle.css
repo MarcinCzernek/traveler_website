@@ -40,13 +40,9 @@
 
 @keyframes show {
   0% {
-    width: 0px;
-    height: 0px;
     opacity: 0.5;
   }
   100% {
-    width: 100px;
-    height: 100px;
     opacity: 0;
   }
 }
@@ -100,5 +96,11 @@
   }
   .Middle .welcome h2 {
     font-size: 1em;
+  }
+  .Middle .welcome button {
+    font-size: 1em;
+  }
+  .Middle .welcome {
+    padding: 50px;
   }
 }

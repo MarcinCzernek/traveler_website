@@ -1,5 +1,4 @@
 .Top{
-
   align-items: center;
   background: linear-gradient(90deg, rgb(255, 255, 166) 0%, rgb(193, 134, 53) 100%);
   position: sticky;
@@ -49,11 +48,25 @@
   }
   .header{
   display: grid;
-  grid-template-columns: 100px 10px;
+  grid-template-columns: auto auto;
   gap:0px;
+  
   }
   ul{
     font-size: 1px;
   }
+}
+
+@media only screen and (max-width: 767px) {
+    #git, img, h3,.burger{
+    display: none;
+    }
+
+    li{
+      a{
+        font-size: 20px;
+      }
+    }
+  
 }
 }

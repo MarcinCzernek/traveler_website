@@ -50,10 +50,19 @@
   }
   .Top .header {
     display: grid;
-    grid-template-columns: 100px 10px;
+    grid-template-columns: auto auto;
     gap: 0px;
   }
   .Top ul {
     font-size: 1px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Top #git, .Top img, .Top h3, .Top .burger {
+    display: none;
+  }
+  .Top li a {
+    font-size: 20px;
   }
 }

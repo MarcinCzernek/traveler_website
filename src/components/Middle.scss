@@ -23,7 +23,7 @@ background-size: cover;
       border-radius: 50%;*/
     }
     button:hover{
-      animation: show .8s linear;;
+      animation: show .8s linear;
     }
     @keyframes button_animation {
       from {box-shadow: blanchedalmond}
@@ -32,13 +32,9 @@ background-size: cover;
     }
     @keyframes show {
       0% {
-        width: 0px;
-        height: 0px;
         opacity: 0.5;
       }
       100% {
-        width: 100px;
-        height: 100px;
         opacity: 0;
       }
     }
@@ -58,9 +54,6 @@ background-size: cover;
     justify-content: center;
     grid-template-columns: auto auto;
     grid-gap: 50px;
-
-
-
     img{
       width: 300px;
       height: 300px;
@@ -94,6 +87,12 @@ background-size: cover;
        h2{
         font-size:1em;
        }
+       button{
+        font-size: 1em;
+       }
+      }
+  .welcome{
+    padding:50px
   }
 }
 }
