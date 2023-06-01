@@ -1,10 +1,13 @@
 .Top {
   align-items: center;
   background: linear-gradient(90deg, #ffffa6 0%, #c18635 100%);
-  position: sticky;
   top: 0;
   z-index: 999;
   padding-bottom: 20px;
+}
+
+.Top nav {
+  position: sticky;
 }
 
 .Top button {
@@ -29,6 +32,7 @@
 
 .Top ul {
   list-style: none;
+
 }
 
 .Top hr {
