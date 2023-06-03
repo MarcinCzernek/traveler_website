@@ -7,7 +7,7 @@
 }
 
 .image {
-  width: 1000px;
+  width: 900px;
   height: 600px;
   border-radius: 10px;
 }
@@ -45,14 +45,7 @@
   transform: scale(1.08);
 }
 
-@media screen and (max-width: 700px) {
-  .image {
-    width: 400px;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .image {
     width: 400px;
     height: 400px;
