@@ -35,6 +35,7 @@ function Middle() {
                     <p className="signature">Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
+            <div className="ending"></div>
             </div>
         </div>
     );
